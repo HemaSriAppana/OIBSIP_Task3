@@ -1,0 +1,92 @@
+.bck{
+background-color:rgb(235, 189, 213);
+background-size:cover;
+height:115vh;
+padding-top:30px;
+padding-right:300px;
+padding-left: 500px;
+}
+.cnt{
+    display:flex;
+    justify-content:center;
+}
+.hg{
+    margin-left:130px;
+    margin-bottom: 50px;
+}
+.hdg{
+    margin-left:130px;
+    margin-bottom: 25px;
+}
+.hdg1{
+    margin-left:110px;
+    margin-bottom: 25px;
+}
+h4{
+    font-size:25px;
+}
+.bt{
+    color:white;
+    background-color:rgb(104, 8, 168);
+    margin-left:10px;
+    border:none;
+    border-radius: 10px;
+    height:40px;
+    width:70px;
+    font-size:25px;
+}
+.cont>input[type="text"]{
+    border:none;
+    width:60%;
+    border-bottom: 2px solid rgb(79, 77, 77);
+    font-size:20px;
+    outline:none;
+    padding:10px;
+    border-radius:10px;
+    
+}
+.completed,.notcompleted{
+    margin:5px 0;
+    padding: 15px;
+    border-radius: 10px;
+    
+    }
+ol{
+    list-style:none;
+    counter-reset: my;
+    
+}
+ol li{
+    width: 60%;
+    font-size:20px;
+    background-color: rgb(149, 231, 233);
+    padding:15px;
+    counter-increment: my;
+    margin: 5px ;
+    border-radius:15px;
+}
+ol.completed li{
+    background-color: rgb(94, 208, 151);
+}
+ol li::before{
+    content:counter(my);
+    border-radius: 50%;
+    width:20px;
+    height:25px;
+    display:inline-block;
+    line-height: 2rem;
+    margin-right: 10px;
+    
+
+}
+li button{
+    float:right;
+    padding:5px;
+    margin-right:5px;
+    background: none;
+    border:none;
+    font-size:large;
+    cursor:pointer;
+    line-height:28px;
+
+}
